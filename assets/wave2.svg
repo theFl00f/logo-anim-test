@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3300" height="4320" viewBox="0 0 3300 4320">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M0,612c275,0,275-132,550-132s275,132,550,132,275-132,550-132,275,132,550,132,275-132,550-132,272.9,132,550,132,0,4188,0,4188H0S-275,612,0,612Z" transform="translate(0 -480)" fill="rebeccapurple"/>
+</svg>

@@ -1,0 +1,68 @@
+.wave1 {
+    position: absolute;
+    background: url('../assets/wave1.svg') repeat-x;
+    background-size: 20%;
+    left: 0;
+    top: 0;
+    width: 200%;
+    height: 30vh;
+    animation: wave1 7s linear infinite;
+}
+
+@keyframes wave1 {
+    from {left: -100%}
+    to {left: 0%}
+}
+
+.wave2 {
+    position: absolute;
+    background: url('../assets/wave2.svg') repeat-x;
+    background-size: 20%;
+    left: 0;
+    top: 2%;
+    width: 200%;
+    height: 30vh;
+    animation: wave2 10s linear infinite reverse;
+}
+
+@keyframes wave2 {
+    from {left: -100%}
+    to {left: -7%}
+}
+
+.background {
+    height: 40vh;
+    width: 40vh;
+    background-color: royalblue;
+    clip-path: circle(25%);
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.newContents {
+    height: 30%;
+    width: 100%;
+    position: relative;
+    animation: loading 10s ease-out 2s forwards;
+
+}
+
+@keyframes loading {
+    from {height: 30%}
+    to {height: 78.5%}
+}
+
+.wrapper {
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #282828;
+}
